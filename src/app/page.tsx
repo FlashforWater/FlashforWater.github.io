@@ -3,7 +3,6 @@ import { GitHubCard } from "@/components/GitHubCard";
 import { LearningCard } from "@/components/LearningCard";
 import { ProjectsCard } from "@/components/ProjectsCard";
 import { NotesCard } from "@/components/NotesCard";
-import { StackCard } from "@/components/StackCard";
 import { ContactCard } from "@/components/ContactCard";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         <LearningCard />
         <ProjectsCard />
         <NotesCard />
-        <StackCard />
         <div className="sm:col-span-2 lg:col-span-3">
           <ContactCard />
         </div>

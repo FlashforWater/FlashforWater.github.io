@@ -1,8 +1,8 @@
 export const site = {
-  name: "Your Name",
-  handle: "yourhandle",
-  role: "Algorithm Engineer · RAG → LLM Post-training",
-  bio: "Algorithm engineer working on RAG, self-learning post-training and reinforcement learning. Building toward LLM alignment and reasoning research.",
+  name: "Xinyu Wang 王新宇",
+  handle: "FlashforWater",
+  role: "AI Engineer",
+  bio: "Math major by training. Spent a year working in Hong Kong before moving into AI, where I now build algorithm systems for a living. Currently going deeper on LLM post-training and reinforcement learning, with a growing interest in embodied intelligence — the parts of AI that feel closest to real reasoning and real action.",
   location: "Beijing, China",
 
   github: "FlashforWater",
@@ -27,15 +27,9 @@ export const site = {
     },
     {
       name: "Paper Notes",
-      description: "Deep-dive notes on alignment, RL and reasoning papers (ReAct, DPO, GRPO, R1, etc.).",
+      description: "Deep-dive notes on alignment, RL, reasoning and embodied intelligence papers.",
       href: "/notes",
-      tags: ["notes", "alignment", "RL"],
-    },
-    {
-      name: "RAG Production System",
-      description: "Production retrieval-augmented generation pipeline — current day job.",
-      href: "#",
-      tags: ["RAG", "production"],
+      tags: ["notes", "RL", "embodied"],
     },
   ],
 } as const;
